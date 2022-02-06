@@ -4,3 +4,4 @@ reports/
 cypress/cucumber-json/
 cypress/screenshots/
 cypress/videos
+file.bundle
