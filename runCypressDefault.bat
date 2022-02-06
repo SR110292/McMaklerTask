@@ -1,0 +1,2 @@
+
+npx cypress run --headed
