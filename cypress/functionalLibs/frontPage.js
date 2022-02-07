@@ -6,10 +6,11 @@ module.exports = {
     },
 
     getRowCount: () => {
-        cy.get('tbody tr').then((el) => {
-            let count = el.length;
+        cy.get('tbody').then((body) => {
+            let count = body.find('tr').length;
             cy.wrap(count).as(`count`);
         })
+
     },
 
     validateAddedCount: () => {
